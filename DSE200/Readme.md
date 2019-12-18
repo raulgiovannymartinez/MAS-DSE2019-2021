@@ -1,6 +1,4 @@
-# Python for Data Analysis
-
-One Paragraph of project description goes here
+# Python for Data Analysis (4 units)
 
 ## Course Description
 http://jacobsschool.ucsd.edu/mas/docs/DSE_Brochure_2019.pdf
@@ -10,6 +8,5 @@ Introduction to object oriented programming using Python. Regular expressions. N
 ## Instructor
 Yoav Freund
 
-
 ## Teaching Assistant
-Sai Akhil
+Sai Akhil Suggu
