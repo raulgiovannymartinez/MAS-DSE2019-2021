@@ -4,9 +4,6 @@ Masters of Advanced Studies in Data Science and Engineering
 ## University
 University of California at San Diego
 
-## Repository Description
-Repository for Class Projects and Homeworks. Masters Degree in Data Science at UCSD
-
 ## UCSD Website and Program Description
 http://jacobsschool.ucsd.edu/mas/dse/
 
