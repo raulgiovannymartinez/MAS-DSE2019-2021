@@ -1,6 +1,8 @@
-# Masters of Advance Studies in Data Science and Engineering
+## Graduate Program
+Masters of Advanced Studies in Data Science and Engineering
 
-## University of California at San Diego
+## University
+University of California at San Diego
 
 ## Description
 Repository for Class Projects and Homeworks. Masters Degree in Data Science at UCSD
