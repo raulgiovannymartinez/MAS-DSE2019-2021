@@ -1,0 +1,22 @@
+sales gives more flexibility in retriving data from categories and customers from a top 20
+
+Pre-Computed Tables
+
+top20_customers table: Finds the top 20 ranked customers based on the price paid. It computes the join between sales and customers, in addition to the rank. This is a nice summary for anyone that might be interested in who are the customers spending the most money in the organization's products or services. 
+
+top20_categories table: Finds the top 20 ranked categories based on the price paid. It computes the three joins among tables sales, products, and categories; in addition to the rank. This is also a nice summary for anyone that might be interested in maybe understanding what categories are bringing the most revenue or perhaps are the most popular among customers. 
+
+sales_customerandcategories table: Aggregates all the "sales" with the "product" and "categoties" table information. This pre-computed table seems very useful for users that query the "sales" table frequently but also want information coming from the "products" or "categories" tables, therefore, instead of joining all three tables in every single query (for each user) we can have an aggregation that becomes computationally cheaper in the long run. 
+
+
+Indices
+
+On Pre-Computed Tables: Indices seem to only be beneficial for table "sales_customerandcategories" by lowering the run time from 8secs 803msec to 6secs 875msec, while "top20_customers" decreased in performance by almost 1 second and "top20_categories" observed no change. Is likely that "sales_customerandcategories" table is benefiting the most from indices because the number of tuples (1,500,000) visited in memory is many orders of magnitude higher as compared to the other top 20 tables (with ~20 tuples).
+
+On queries: There is no run time improvement when testing the queries with indices. The original query (no pre-computed tables) increased from 14secs 986msecs to 16secs 545msec when indiecs were applied, and the query with pre-computed tables also increased from 802msec to 813msec; the latter one is probably within variation (~10msec change).
+
+
+Conclusion
+fds
+
+

@@ -1,0 +1,69 @@
+To check current indices on database
+select *
+from pg_indexes
+where tablename not like 'pg%'
+
+
+Why indexing is not performing better?
+
+For few rows it pays to run an index scan. With more rows to return (higher percentage of the table and depending on data distribution, value frequencies and row width) it becomes more likely to find several rows on one data page. Then it pays to switch to a bitmap index scans. Once a large percentage of data pages has to be visited anyway, it's cheaper to run a sequential scan, filter surplus rows and skip the overhead for indexes altogether.
+
+
+Using an index only makes sense for a small fraction of all rows. Else it would just add additional cost. Depending on a number of co-factors, the Postgres query planner starts to consider a btree index for around 5% of all rows or less. Related:
+
+
+
+
+What is the execution plan? 
+
+Estimated start-up cost. This is the time expended before the output phase can begin, e.g., time to do the sorting in a sort node.
+
+Estimated total cost. This is stated on the assumption that the plan node is run to completion, i.e., all available rows are retrieved. In practice a node's parent node might stop short of reading all available rows (see the LIMIT example below).
+
+Estimated number of rows output by this plan node. Again, the node is assumed to be run to completion.
+
+Estimated average width of rows output by this plan node (in bytes).
+
+The Sort node shows the sort method used (in particular, whether the sort was in-memory or on-disk) and the amount of memory or disk space needed. The Hash node shows the number of hash buckets and batches as well as the peak amount of memory used for the hash table. (If the number of batches exceeds one, there will also be disk space usage involved, but that is not shown.)
+
+
+
+
+What is cost on an execution plan? 
+
+Is an expected value. Not very accurate. 
+
+Startup cost is a tricky concept. It doesn't just represent the amount of time before that component starts. It represents the amount of time between when the component starts executing (reading in data) and when the component outputs its first row.
+
+Total cost is the entire execution time of the component, from when it begins reading in data to when it finishes writing its output.
+
+
+
+What happens when you run a query, and what is the execution time and the planning time? 
+
+I think there's small misunderstanding of yours. I try to describe shortly what's going on when you run a query:
+
+1. You write a query in SQL which is some kind of "script" that you try to tell the server what you want from him.
+2. Most of the times there is many ways for server to collect data you ask for by writing query. There is where mechanism called "query planner" comes in to action. It tries to find the quickest way (plan) of execution of your query. It's doing so by estimates execution time of several possible ways (plans).
+3. Server runs the query using the plan which is thought as the quickest one.
+4. Server returns you the output.
+
+EXPLAIN command prints you description of that process. Now:
+
+->Execution time on EXPLAIN output is time server spent on steps 3-4.
+->Planning time on EXPLAIN output is time server spent on step 2 only. I believe you think of it as "time planner thinks that query would take", but that can be called "planned [execution] time" or "estimated execution time".
+
+So there's no reason why planning time and execution time difference should be smaller. PostgreSQL want to keep planning time short to minimize it's impact on whole execution time.
+
+
+
+
+Will a group by and order by benefit from an index?
+The tuples that are constructed on the fly will not be benefited
+For order by you benefit even less, even if there is an index I am doing intermediate files where no index would be in there
+
+
+
+
+Where are the most Benefits of an index?
+The clause join, filter, and where

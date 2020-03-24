@@ -1,0 +1,33 @@
+
+
+INSERT INTO Teams (name, coach) VALUES('Itjun','Ofklekajqc');
+INSERT INTO Teams (name, coach) VALUES('Xaqlt','Eedahoqxdg');
+INSERT INTO Teams (name, coach) VALUES('Wxumx','Qrdgritmdf');
+INSERT INTO Teams (name, coach) VALUES('Gjaka','Moarlmhkcu');
+INSERT INTO Teams (name, coach) VALUES('Ufcti','Ctfzetpdau');
+
+
+INSERT INTO Matches (hTeam, vteam, hScore, vScore) VALUES ('Itjun', 'Xaqlt',10,10);
+INSERT INTO Matches (hTeam, vteam, hScore, vScore) VALUES ('Itjun', 'Wxumx',10,6);
+INSERT INTO Matches (hTeam, vteam, hScore, vScore) VALUES ('Itjun', 'Gjaka',10,4);
+INSERT INTO Matches (hTeam, vteam, hScore, vScore) VALUES ('Itjun', 'Ufcti',10,0);
+INSERT INTO Matches (hTeam, vteam, hScore, vScore) VALUES ('Xaqlt', 'Wxumx',10,0);
+INSERT INTO Matches (hTeam, vteam, hScore, vScore) VALUES ('Xaqlt', 'Gjaka',10,10);
+INSERT INTO Matches (hTeam, vteam, hScore, vScore) VALUES ('Xaqlt', 'Ufcti',10,8);
+INSERT INTO Matches (hTeam, vteam, hScore, vScore) VALUES ('Wxumx', 'Gjaka',7,8);
+INSERT INTO Matches (hTeam, vteam, hScore, vScore) VALUES ('Wxumx', 'Ufcti',6,4);
+INSERT INTO Matches (hTeam, vteam, hScore, vScore) VALUES ('Gjaka', 'Ufcti',3,3);
+INSERT INTO Matches (hTeam, vteam, hScore, vScore) VALUES ('Xaqlt', 'Itjun',10,10);
+INSERT INTO Matches (hTeam, vteam, hScore, vScore) VALUES ('Wxumx', 'Itjun',6,10);
+INSERT INTO Matches (hTeam, vteam, hScore, vScore) VALUES ('Gjaka', 'Itjun',9,10);
+INSERT INTO Matches (hTeam, vteam, hScore, vScore) VALUES ('Ufcti', 'Itjun',8,10);
+INSERT INTO Matches (hTeam, vteam, hScore, vScore) VALUES ('Wxumx', 'Xaqlt',7,10);
+INSERT INTO Matches (hTeam, vteam, hScore, vScore) VALUES ('Gjaka', 'Xaqlt',1,0);
+INSERT INTO Matches (hTeam, vteam, hScore, vScore) VALUES ('Ufcti', 'Xaqlt',10,10);
+INSERT INTO Matches (hTeam, vteam, hScore, vScore) VALUES ('Gjaka', 'Wxumx',10,10);
+INSERT INTO Matches (hTeam, vteam, hScore, vScore) VALUES ('Ufcti', 'Wxumx',4,5);
+INSERT INTO Matches (hTeam, vteam, hScore, vScore) VALUES ('Ufcti', 'Gjaka',10,9);
+
+
+
+INSERT INTO Matches (hTeam, vteam, hScore, vScore) VALUES ('Itjun', 'Wxumx',10,0);

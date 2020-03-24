@@ -1,0 +1,83 @@
+
+1)
+-- Question:
+Problem:
+•  Find the students that take every class ‘John
+Smith’ takes
+Rephrase:
+•  Find the students such that there is no class that
+‘John Smith’ takes and they do not take
+
+
+-- You can create a view for the classes that John Smith has taken
+CREATE VIEW JohnsClasses AS
+
+	SELECT ej.class
+	FROM students j, enrollments ej
+	WHERE ej.student = j.id AND
+			j.first_name = 'John' AND
+			j.last_name = 'Smith'
+
+
+-- Now select all the students that are enrolled in the same class as John
+
+CREATE VIEW MissedOneClass AS 
+
+	SELECT s.id
+	FROM students s, JohnClasses c
+	WHERE NOT EXISTS (
+		SELECT 
+		FROM enrollments e
+		WHERE  e.class = c AND e.student = s.id
+	)
+
+-- Finally select the negation (or complement) of students that missed a class that john takes 
+	
+	SELECT *
+	FROM students s
+	WHERE s.id NOT IN (
+		SELECT * FROM MissedOneClass
+	)
+
+
+2)
+
+CREATE VIEW MAS201Students AS
+
+	SELECT s.id
+	FROM students s, enrollment e, classes c
+	WHERE e.student = s.id AND e.class = c.id
+	AND c.number = 'MAS201'
+
+
+	SELECT c.start_time, c.end_time, c.date_code, COUNT(DISTINCT e.student)
+	FROM enrollments e, classes cs
+	WHERE c.number < > 'MAS201'
+		AND e.class = c.id
+		AND e.id IN (
+			SELECT * FROM MAS201Students
+		)
+	GROUP BY c.start_time, c.end_time, c.date_code
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

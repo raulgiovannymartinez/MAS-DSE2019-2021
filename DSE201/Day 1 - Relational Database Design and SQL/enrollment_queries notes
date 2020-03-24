@@ -1,0 +1,35 @@
+--SELECT * FROM classes
+--SELECT * FROM enrollment
+--SELECT * FROM students
+
+
+--SELECT s.first_name, s.last_name 
+--FROM students s
+
+
+--SELECT * FROM students s
+--WHERE s.first_name = 'John'
+
+--SELECT *
+--FROM students s, classes c, enrollment e
+--WHERE c.number = 'MAS201'
+--AND e.class = c.id
+--AND e.student = s.id
+
+--SELECT s.pid, s.first_name, s.last_name, e.credits
+--FROM students s, classes c, enrollment e
+--WHERE c.number = 'MAS201'
+--AND e.class = c.id
+--AND e.student = s.id
+
+SELECT s.pid, s.first_name, s.last_name
+FROM students s,
+		enrollment e201, classes c201,
+		enrollment eFri, classes cFri
+WHERE c201.number = 'MAS201' AND e201.student = s.id AND e201.class = c201.id
+	AND cFri.id = eFri.class AND eFri.student = s.id AND cFri.date_code
+	LIKE '%F%' AND cFri.start_time = '11:00'
+
+
+
+

@@ -1,0 +1,78 @@
+Programming questions:
+
+6.	Programming Question: (10 points) Write a Python code that calculates and returns the same answer as Question 5. You don’t have to list the sequences. 
+Code:
+# import libraries
+import itertools
+# define list for English characters
+A = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'}
+# define sequence length
+k = 5
+# find all sequences
+permute_k = set(itertools.product(A, repeat = k))
+
+Output:
+len(permute_k) = 11,881,376
+
+
+16.	Programming Question: (10 points) Write a Python function that simulates rolling a pair of dice in Question 15. Simulate this experiment for n ≥ 1000 trials and return the fraction that they show the same value. Is this fraction close to the probability you calculated before? (Hint: You can use random.choice([1, 2, 3, 4, 5, 6]) function to simulate a single die roll.)  
+Code
+# import libraries
+import numpy as np
+
+# define simulation function
+def two_dice_simulation(n=1000):
+	"""
+	roll a pair of dice to simulate the probability they show the same value
+	"""
+	count = 0
+	for _ in range(n):
+    		dice1 = np.random.choice([1,2,3,4,5,6], p = [1/6]*6)
+    		dice2 = np.random.choice([1,2,3,4,5,6], p = [1/6]*6)
+    		if dice1 == dice2:
+        	count+=1
+	print("Probability that two dice when rolled show the same value:\t",count/n)
+
+# call function for 10k simulations
+two_dice_simulation(n=10000)
+
+Output
+Probability that two dice when rolled show the same value:   0.1658
+Yes, the output of the simulation for n = 10, 000 shows a very similar probability from the previous calculation of 1/6.
+
+
+37.	Programming Question: (10 points) Write a Python function that simulates the experiment above. Simulate this experiment for n ≥ 10000 people and return the experimental probability P(Male | Colorblind). Check if the simulated answer matches the calculated probability. (Hint: For each person in the sim- ulation, first simulate the gender then simulate the color blindness based on the gender.)  
+Code
+# import libraries
+import numpy as np
+
+# define simulation function
+def colorblind_simulation_male(n=10000):
+    """
+    Suppose that there are equal numbers of men and women in the world, and that 5% 
+    of men are colorblind whereas only 1% of women are colorblind.     
+    """
+    # set counters
+    count_m, blind_m, count_f, blind_f = 0, 0, 0, 0
+    # iterate over every simulation
+    for _ in range(n):
+        # find gender first
+        gender = np.random.choice(['m','f'], p = [0.5,0.5])
+        # find if the gender is color blind
+        if gender == 'm':
+            count_m+=1
+            if np.random.choice([True,False], p = [0.05, 0.95]):
+                blind_m+=1
+        elif gender == 'f':
+            count_f+=1
+            if np.random.choice([True,False], p = [0.01, 0.99]):
+                blind_f+=1
+print("The probability of a colorblind person being male is {}".format(blind_m/(blind_m+blind_f)))
+
+# call function for 1M simulations
+colorblind_simulation_male(n=1000000)
+
+Output
+The probability of a colorblind person being male is 0.8318142505488657
+
+
