@@ -1,4 +1,13 @@
-DSE201
-======
+# Data Management Systems (4 units)
 
-Course directory for DSE201
+## Course Description
+This course will provide an introduction to the management of structured data beginning with an introduction to database models including relational, hierarchical, and network approaches. It will also cover topics in database system implementation including query languages and system architectures; parallel, column-oriented, and array-based database systems; advanced SQL features including user-defined functions (UDFs), triggers, statistical functions; and support for spatial data.
+
+## Instructor
+
+
+## Teaching Assistant
+
+
+## Program Brochure
+http://jacobsschool.ucsd.edu/mas/docs/DSE_Brochure_2019.pdf
