@@ -1,0 +1,26 @@
+
+* Running Docker Images
+------------------------------------------------------------------------------------------------------------------------------------------
+
+sudo docker run -it -p 8889:8888 -v /Users/gio/Documents/DSE/2019-rgm001/DSE230:/home/ucsddse230/work ucsddse230/cse255-dse230 /bin/bash
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Explanations of this command: 
+
+"docker run": start the docker container.
+"-it": enable interactive mode.
+"-p 8889:8888": enable port forwarding and forward requests from port 8888 inside the docker container to port 8889 on the local system.
+"/local/path/to/pa1:/home/ucsddse230/work": mount the local directory "local/path/to/pa1" inside the container at the location "/home/ucsddse230/w/Users/gio/Documents/DSE/2019-rgm001/DSE230ork".
+"/bin/bash": enable bash inside the container.
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+* Run jupyter notebook
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Type on command window -> jupyter notebook
+
+put the following on your browser -> localhost:8889
+
+------------------------------------------------------------------------------------------------------------------------------------------

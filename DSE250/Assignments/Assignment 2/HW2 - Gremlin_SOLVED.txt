@@ -1,0 +1,92 @@
+
+
+--------->>> Name: Raul Giovanny Martinez <<<---------
+
+
+--------->>> PID: A12461871 <<<---------
+
+
+--------->>> HW #2 Instructions <<<---------
+
+
+DSE250 Beyond Relational Data Models
+
+Homework 2
+
+Turn in Thursday, Nov 12, by 11:59pm via canvas
+ 
+In this homework, we will explore graph programming according to the functional-style paradigm of the Gremlin query language. Gremlin is currently supported by a Tinkerpop Apache project and as commercial product by the start-up DataStax as well as by IBM (for its cloud platform) and Microsoft (for Azure).
+
+You can download an open-source verrsion from http:/tinkerpop.apache.org/ (the Gremlin Console 3.3.0 download will suffice). Documentation is available online at http:/tinkerpop.apache.org/docs/current/reference/, in particular http:/tinkerpop.apache.org/docs/3.3.0/tutorials/the-gremlin-console/
+for documentation of the Gremlin Console.
+
+See the syllabus for a link to the  ``Getting Started, the First Five Minutes'' tutorial, which shows you how to download the console, unzip it and install it, and how to create the ``Modern'' toy graph.
+
+See also the link to the SQL2Gremlin tutorial included in the syllabus page. If interested (not required for this hw) see an academic paper on the semantics of the language, published by its designer Marko Rodriguez at https://arxiv.org/abs/1508.03843.
+
+
+--------->>> The following queries are for the Modern toy graph. <<<---------
+
+
+\\ Instantiate "Modern Toy Graph" in the console
+
+
+	gremlin> graph = TinkerFactory.createModern()
+	==>tinkergraph[vertices:6 edges:6]
+
+	
+	gremlin> g = graph.traversal()
+	==>graphtraversalsource[tinkergraph[vertices:6 edges:6], standard]
+
+
+1. [10pts] Find the names of all persons in the graph.
+
+
+	gremlin> g.V().hasLabel("person").values("name")
+	==>marko
+	==>vadas
+	==>josh
+	==>peter
+
+
+2. [10pts] Find the age property of a person node whose name is 'marko'.
+
+
+	gremlin> g.V().has("person", "name", "marko").values("age")
+	==>29
+
+
+3. [15pts] Find the names of the persons marko has worked with (has co-created something with).
+
+
+	gremlin> g.V().has("person", "name", "marko").out("created").values("name")
+	==>lop
+
+
+4. [15pts] Find the maximum age of persons in the graph.
+
+
+	gremlin> g.V().hasLabel("person").values("age").max().dedup()
+	==>35
+
+
+5. [15pts] For each software artifact, count its creators.
+
+
+	gremlin> g.V().hasLabel("person").out("created").groupCount().by("name").order(local).by(values, decr)
+	==>[lop:3,ripple:1]
+
+
+6. [15pts] For each person, compute the weighted sum of their creations (sum up the weight attributes on the created edges emanating from this person).
+
+
+	gremlin> g.V().hasLabel("software").in("created").dedup().group().by("name").by(outE("created").values("weight").sum()).order(local).by(values, decr)
+	==>[josh:1.4,marko:0.4,peter:0.2]
+
+
+7. [20pts] Find creative and sociable persons (i.e. persons who have both created something and know someone).
+
+
+	gremlin> g.V().where(outE("created").and().outE("knows")).values("name")
+	==>marko
+

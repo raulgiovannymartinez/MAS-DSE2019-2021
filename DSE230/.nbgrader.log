@@ -1,0 +1,458 @@
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/ucsddse230/work
+[NotebookApp | INFO] 0 active kernels
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://[all ip addresses on your system]:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] Shutdown confirmed
+[NotebookApp | INFO] Shutting down 0 kernels
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/ucsddse230/work
+[NotebookApp | INFO] 0 active kernels
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://[all ip addresses on your system]:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | INFO] 302 GET / (172.17.0.1) 5.82ms
+[NotebookApp | INFO] Writing notebook-signing key to /home/ucsddse230/.local/share/jupyter/notebook_secret
+[NotebookApp | WARNING] Notebook Section1-Spark-Basics/0.MemoryLatency/1_Row_vs_Col_Major.ipynb is not trusted
+[NotebookApp | INFO] Kernel started: 4636f0d5-8f05-4e8a-bc16-16b4256a44b5
+[NotebookApp | INFO] 302 GET /notebooks/Section1-Spark-Basics/0.MemoryLatency/Figures/Row-major-layout.png (172.17.0.1) 51.30ms
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20200407211653 (172.17.0.1) 29.93ms referer=http://localhost:8889/notebooks/Section1-Spark-Basics/0.MemoryLatency/1_Row_vs_Col_Major.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 4636f0d5-8f05-4e8a-bc16-16b4256a44b5
+[NotebookApp | INFO] Starting buffering for 4636f0d5-8f05-4e8a-bc16-16b4256a44b5:410f9bd362224c8e878adf660f99b3ba
+[NotebookApp | WARNING] Notebook Section1-Spark-Basics/0.MemoryLatency/2_measuring_performance_of_memory_hierarchy.ipynb is not trusted
+[NotebookApp | INFO] Kernel started: 6dc0395c-e31e-4304-b206-92fd378f64d6
+[NotebookApp | INFO] 302 GET /notebooks/Section1-Spark-Basics/0.MemoryLatency/Figures/MacBookProMemorySizes.png (172.17.0.1) 29.26ms
+[NotebookApp | INFO] 302 GET /notebooks/Section1-Spark-Basics/0.MemoryLatency/Figures/Sequential_access_latency.png (172.17.0.1) 14.14ms
+[NotebookApp | INFO] 302 GET /notebooks/Section1-Spark-Basics/0.MemoryLatency/Figures/Random_access_latency.png (172.17.0.1) 11.46ms
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20200407211653 (172.17.0.1) 11.48ms referer=http://localhost:8889/notebooks/Section1-Spark-Basics/0.MemoryLatency/2_measuring_performance_of_memory_hierarchy.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 6dc0395c-e31e-4304-b206-92fd378f64d6
+[NotebookApp | INFO] Saving file at /Section1-Spark-Basics/0.MemoryLatency/2_measuring_performance_of_memory_hierarchy.ipynb
+[NotebookApp | WARNING] Notebook Section1-Spark-Basics/0.MemoryLatency/2_measuring_performance_of_memory_hierarchy.ipynb is not trusted
+[NotebookApp | INFO] 302 GET / (172.17.0.1) 3.52ms
+[NotebookApp | WARNING] Notebook Section1-Spark-Basics/1.BasicSpark/1. Spark Basics 1.ipynb is not trusted
+[NotebookApp | INFO] Kernel started: af4f4686-385e-46e3-bd47-345a1156222c
+[NotebookApp | INFO] 302 GET /notebooks/Section1-Spark-Basics/1.BasicSpark/Figures/SparkContextAndRDD.jpg (172.17.0.1) 13.08ms
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20200407211653 (172.17.0.1) 14.40ms referer=http://localhost:8889/notebooks/Section1-Spark-Basics/1.BasicSpark/1.%20Spark%20Basics%201.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel af4f4686-385e-46e3-bd47-345a1156222c
+[NotebookApp | INFO] Starting buffering for af4f4686-385e-46e3-bd47-345a1156222c:ca8a84d535ae429a8f9e82b2e3b3971a
+[NotebookApp | INFO] Starting buffering for 6dc0395c-e31e-4304-b206-92fd378f64d6:d9481f7549fc40a088b583bbd6b727c7
+[NotebookApp | WARNING] Notebook Section1-Spark-Basics/0.MemoryLatency/1_Row_vs_Col_Major.ipynb is not trusted
+[NotebookApp | INFO] 302 GET /notebooks/Section1-Spark-Basics/0.MemoryLatency/Figures/Row-major-layout.png (172.17.0.1) 18.74ms
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 4636f0d5-8f05-4e8a-bc16-16b4256a44b5
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20200407211653 (172.17.0.1) 10.09ms referer=http://localhost:8889/notebooks/Section1-Spark-Basics/0.MemoryLatency/1_Row_vs_Col_Major.ipynb
+[NotebookApp | INFO] Saving file at /Section1-Spark-Basics/0.MemoryLatency/1_Row_vs_Col_Major.ipynb
+[NotebookApp | INFO] Saving file at /Section1-Spark-Basics/0.MemoryLatency/1_Row_vs_Col_Major.ipynb
+[NotebookApp | INFO] Starting buffering for 4636f0d5-8f05-4e8a-bc16-16b4256a44b5:f2813674284847e8876759fd87f85e72
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 4636f0d5-8f05-4e8a-bc16-16b4256a44b5
+[NotebookApp | INFO] Starting buffering for 4636f0d5-8f05-4e8a-bc16-16b4256a44b5:3a30ca3716624b2f8903f735cab9f3f6
+[NotebookApp | INFO] Kernel restarted: 4636f0d5-8f05-4e8a-bc16-16b4256a44b5
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 4636f0d5-8f05-4e8a-bc16-16b4256a44b5
+[NotebookApp | INFO] Restoring connection for 4636f0d5-8f05-4e8a-bc16-16b4256a44b5:3a30ca3716624b2f8903f735cab9f3f6
+[NotebookApp | INFO] Replaying 6 buffered messages
+[NotebookApp | INFO] Saving file at /Section1-Spark-Basics/0.MemoryLatency/1_Row_vs_Col_Major.ipynb
+[NotebookApp | INFO] Starting buffering for 4636f0d5-8f05-4e8a-bc16-16b4256a44b5:3a30ca3716624b2f8903f735cab9f3f6
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 4636f0d5-8f05-4e8a-bc16-16b4256a44b5
+[NotebookApp | INFO] Restoring connection for 4636f0d5-8f05-4e8a-bc16-16b4256a44b5:3a30ca3716624b2f8903f735cab9f3f6
+[NotebookApp | INFO] Saving file at /Section1-Spark-Basics/0.MemoryLatency/1_Row_vs_Col_Major.ipynb
+[NotebookApp | WARNING] Notebook Section1-Spark-Basics/0.MemoryLatency/2_measuring_performance_of_memory_hierarchy.ipynb is not trusted
+[NotebookApp | INFO] 302 GET /notebooks/Section1-Spark-Basics/0.MemoryLatency/Figures/Random_access_latency.png (172.17.0.1) 28.76ms
+[NotebookApp | INFO] 302 GET /notebooks/Section1-Spark-Basics/0.MemoryLatency/Figures/MacBookProMemorySizes.png (172.17.0.1) 16.25ms
+[NotebookApp | INFO] 302 GET /notebooks/Section1-Spark-Basics/0.MemoryLatency/Figures/Sequential_access_latency.png (172.17.0.1) 13.47ms
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 6dc0395c-e31e-4304-b206-92fd378f64d6
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20200407211653 (172.17.0.1) 6.42ms referer=http://localhost:8889/notebooks/Section1-Spark-Basics/0.MemoryLatency/2_measuring_performance_of_memory_hierarchy.ipynb
+[NotebookApp | INFO] Saving file at /Section1-Spark-Basics/0.MemoryLatency/2_measuring_performance_of_memory_hierarchy.ipynb
+[NotebookApp | WARNING] Notebook Section1-Spark-Basics/0.MemoryLatency/2_measuring_performance_of_memory_hierarchy.ipynb is not trusted
+[NotebookApp | INFO] Starting buffering for 6dc0395c-e31e-4304-b206-92fd378f64d6:0e4ea992076b471e8a9b90f02e59d65c
+[NotebookApp | INFO] Starting buffering for 4636f0d5-8f05-4e8a-bc16-16b4256a44b5:3a30ca3716624b2f8903f735cab9f3f6
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 6dc0395c-e31e-4304-b206-92fd378f64d6
+[NotebookApp | INFO] Restoring connection for 6dc0395c-e31e-4304-b206-92fd378f64d6:0e4ea992076b471e8a9b90f02e59d65c
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 4636f0d5-8f05-4e8a-bc16-16b4256a44b5
+[NotebookApp | INFO] Restoring connection for 4636f0d5-8f05-4e8a-bc16-16b4256a44b5:3a30ca3716624b2f8903f735cab9f3f6
+[NotebookApp | INFO] Saving file at /Section1-Spark-Basics/0.MemoryLatency/1_Row_vs_Col_Major.ipynb
+[NotebookApp | INFO] Starting buffering for 6dc0395c-e31e-4304-b206-92fd378f64d6:0e4ea992076b471e8a9b90f02e59d65c
+[NotebookApp | INFO] Starting buffering for 4636f0d5-8f05-4e8a-bc16-16b4256a44b5:3a30ca3716624b2f8903f735cab9f3f6
+[NotebookApp | WARNING] Notebook Section1-Spark-Basics/0.MemoryLatency/3_A more accurate measurement of memory Poke latencies.ipynb is not trusted
+[NotebookApp | INFO] Kernel started: 4d709659-b8b2-4991-a876-c643ee56199a
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20200407211653 (172.17.0.1) 13.14ms referer=http://localhost:8889/notebooks/Section1-Spark-Basics/0.MemoryLatency/3_A%20more%20accurate%20measurement%20of%20memory%20Poke%20latencies.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 4d709659-b8b2-4991-a876-c643ee56199a
+[NotebookApp | INFO] Starting buffering for 4d709659-b8b2-4991-a876-c643ee56199a:1cdabdf613004c4584458717c249afc0
+[NotebookApp | WARNING] Notebook Section1-Spark-Basics/1.BasicSpark/1. Spark Basics 1.ipynb is not trusted
+[NotebookApp | INFO] 302 GET /notebooks/Section1-Spark-Basics/1.BasicSpark/Figures/SparkContextAndRDD.jpg (172.17.0.1) 56.64ms
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel af4f4686-385e-46e3-bd47-345a1156222c
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20200407211653 (172.17.0.1) 4.36ms referer=http://localhost:8889/notebooks/Section1-Spark-Basics/1.BasicSpark/1.%20Spark%20Basics%201.ipynb
+[NotebookApp | WARNING] Notebook Section1-Spark-Basics/1.BasicSpark/2. experiment changing the number of executors.ipynb is not trusted
+[NotebookApp | INFO] Kernel started: 8cea5d5b-c0d7-400d-bd20-dfe3e740a708
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20200407211653 (172.17.0.1) 19.18ms referer=http://localhost:8889/notebooks/Section1-Spark-Basics/1.BasicSpark/2.%20experiment%20changing%20the%20number%20of%20executors.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 8cea5d5b-c0d7-400d-bd20-dfe3e740a708
+[NotebookApp | INFO] Saving file at /Section1-Spark-Basics/1.BasicSpark/1. Spark Basics 1.ipynb
+[NotebookApp | WARNING] Notebook Section1-Spark-Basics/1.BasicSpark/1. Spark Basics 1.ipynb is not trusted
+[NotebookApp | WARNING] Notebook Section1-Spark-Basics/1.BasicSpark/3. Execution plans, Lazy Evaluation, and caching.ipynb is not trusted
+[NotebookApp | INFO] Kernel started: 5650742f-214a-476f-888e-d026b2c64f73
+[NotebookApp | INFO] 302 GET /notebooks/Section1-Spark-Basics/1.BasicSpark/Figures/LazyEvaluation/Slide1.png (172.17.0.1) 39.35ms
+[NotebookApp | INFO] 302 GET /notebooks/Section1-Spark-Basics/1.BasicSpark/Figures/LazyEvaluation/Slide5.png (172.17.0.1) 33.83ms
+[NotebookApp | INFO] 302 GET /notebooks/Section1-Spark-Basics/1.BasicSpark/Figures/LazyEvaluation/Slide4.png (172.17.0.1) 40.63ms
+[NotebookApp | INFO] 302 GET /notebooks/Section1-Spark-Basics/1.BasicSpark/Figures/LazyEvaluation/Slide3.png (172.17.0.1) 54.36ms
+[NotebookApp | INFO] 302 GET /notebooks/Section1-Spark-Basics/1.BasicSpark/Figures/LazyEvaluation/Slide2.png (172.17.0.1) 36.32ms
+[NotebookApp | INFO] 302 GET /notebooks/Section1-Spark-Basics/1.BasicSpark/Figures/ExecutionPlan/Slide1.jpg (172.17.0.1) 17.94ms
+[NotebookApp | INFO] 302 GET /notebooks/Section1-Spark-Basics/1.BasicSpark/Figures/ExecutionPlan/Slide2.jpg (172.17.0.1) 24.12ms
+[NotebookApp | INFO] 302 GET /notebooks/Section1-Spark-Basics/1.BasicSpark/Figures/ExecutionPlan/Slide3.jpg (172.17.0.1) 22.68ms
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20200407211653 (172.17.0.1) 15.89ms referer=http://localhost:8889/notebooks/Section1-Spark-Basics/1.BasicSpark/3.%20Execution%20plans%2C%20Lazy%20Evaluation%2C%20and%20caching.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 5650742f-214a-476f-888e-d026b2c64f73
+[NotebookApp | WARNING] Notebook Section1-Spark-Basics/1.BasicSpark/4 Spark Basics 2.ipynb is not trusted
+[NotebookApp | INFO] Kernel started: 1f0db181-b40c-4ad6-ad77-2f087dba265f
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20200407211653 (172.17.0.1) 28.51ms referer=http://localhost:8889/notebooks/Section1-Spark-Basics/1.BasicSpark/4%20Spark%20Basics%202.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 1f0db181-b40c-4ad6-ad77-2f087dba265f
+[NotebookApp | INFO] Saving file at /Section1-Spark-Basics/1.BasicSpark/2. experiment changing the number of executors.ipynb
+[NotebookApp | INFO] Saving file at /Section1-Spark-Basics/1.BasicSpark/1. Spark Basics 1.ipynb
+[NotebookApp | WARNING] Notebook Section1-Spark-Basics/1.BasicSpark/1. Spark Basics 1.ipynb is not trusted
+[NotebookApp | INFO] Saving file at /Section1-Spark-Basics/1.BasicSpark/3. Execution plans, Lazy Evaluation, and caching.ipynb
+[NotebookApp | WARNING] Notebook Section1-Spark-Basics/1.BasicSpark/3. Execution plans, Lazy Evaluation, and caching.ipynb is not trusted
+[NotebookApp | INFO] Saving file at /Section1-Spark-Basics/1.BasicSpark/4 Spark Basics 2.ipynb
+[NotebookApp | WARNING] Notebook Section1-Spark-Basics/1.BasicSpark/4 Spark Basics 2.ipynb is not trusted
+[NotebookApp | INFO] Saving file at /Section1-Spark-Basics/1.BasicSpark/1. Spark Basics 1.ipynb
+[NotebookApp | WARNING] Notebook Section1-Spark-Basics/1.BasicSpark/1. Spark Basics 1.ipynb is not trusted
+[NotebookApp | INFO] Saving file at /Section1-Spark-Basics/1.BasicSpark/4 Spark Basics 2.ipynb
+[NotebookApp | WARNING] Notebook Section1-Spark-Basics/1.BasicSpark/4 Spark Basics 2.ipynb is not trusted
+[NotebookApp | INFO] Saving file at /Section1-Spark-Basics/1.BasicSpark/4 Spark Basics 2.ipynb
+[NotebookApp | WARNING] Notebook Section1-Spark-Basics/1.BasicSpark/4 Spark Basics 2.ipynb is not trusted
+[NotebookApp | WARNING] Notebook Section1-Spark-Basics/1.BasicSpark/5.Word Count.ipynb is not trusted
+[NotebookApp | INFO] Kernel started: b68be65b-725f-45f3-a199-8297c7894fb9
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20200407211653 (172.17.0.1) 29.61ms referer=http://localhost:8889/notebooks/Section1-Spark-Basics/1.BasicSpark/5.Word%20Count.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel b68be65b-725f-45f3-a199-8297c7894fb9
+[NotebookApp | INFO] Saving file at /Section1-Spark-Basics/1.BasicSpark/5.Word Count.ipynb
+[NotebookApp | WARNING] Notebook Section1-Spark-Basics/1.BasicSpark/6.(key,val) RDD operations.ipynb is not trusted
+[NotebookApp | INFO] Kernel started: 57a64fa2-9561-40b1-ac7b-7e104c26857f
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20200407211653 (172.17.0.1) 27.36ms referer=http://localhost:8889/notebooks/Section1-Spark-Basics/1.BasicSpark/6.(key%2Cval)%20RDD%20operations.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 57a64fa2-9561-40b1-ac7b-7e104c26857f
+[NotebookApp | INFO] Saving file at /Section1-Spark-Basics/1.BasicSpark/6.(key,val) RDD operations.ipynb
+[NotebookApp | INFO] Starting buffering for af4f4686-385e-46e3-bd47-345a1156222c:40dbb178b3b8489ea444d3449d44e1f8
+[NotebookApp | INFO] Starting buffering for 5650742f-214a-476f-888e-d026b2c64f73:9136d2a9bb9549488f69e9873d74bfec
+[NotebookApp | INFO] Starting buffering for 57a64fa2-9561-40b1-ac7b-7e104c26857f:c4cc1bc577ec4c7288e4e1b340da1e28
+[NotebookApp | INFO] Starting buffering for b68be65b-725f-45f3-a199-8297c7894fb9:d4efc95d25c4404789c712cf294c6046
+[NotebookApp | INFO] Starting buffering for 8cea5d5b-c0d7-400d-bd20-dfe3e740a708:b2abaa4837e34a118fbfd74481fa6c04
+[NotebookApp | INFO] Starting buffering for 1f0db181-b40c-4ad6-ad77-2f087dba265f:7f17966e02cb49028566316dc2a973b0
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 57a64fa2-9561-40b1-ac7b-7e104c26857f
+[NotebookApp | INFO] Restoring connection for 57a64fa2-9561-40b1-ac7b-7e104c26857f:c4cc1bc577ec4c7288e4e1b340da1e28
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel b68be65b-725f-45f3-a199-8297c7894fb9
+[NotebookApp | INFO] Restoring connection for b68be65b-725f-45f3-a199-8297c7894fb9:d4efc95d25c4404789c712cf294c6046
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 1f0db181-b40c-4ad6-ad77-2f087dba265f
+[NotebookApp | INFO] Restoring connection for 1f0db181-b40c-4ad6-ad77-2f087dba265f:7f17966e02cb49028566316dc2a973b0
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 5650742f-214a-476f-888e-d026b2c64f73
+[NotebookApp | INFO] Restoring connection for 5650742f-214a-476f-888e-d026b2c64f73:9136d2a9bb9549488f69e9873d74bfec
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 8cea5d5b-c0d7-400d-bd20-dfe3e740a708
+[NotebookApp | INFO] Restoring connection for 8cea5d5b-c0d7-400d-bd20-dfe3e740a708:b2abaa4837e34a118fbfd74481fa6c04
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel af4f4686-385e-46e3-bd47-345a1156222c
+[NotebookApp | INFO] Restoring connection for af4f4686-385e-46e3-bd47-345a1156222c:40dbb178b3b8489ea444d3449d44e1f8
+[NotebookApp | INFO] Starting buffering for 1f0db181-b40c-4ad6-ad77-2f087dba265f:7f17966e02cb49028566316dc2a973b0
+[NotebookApp | INFO] Starting buffering for b68be65b-725f-45f3-a199-8297c7894fb9:d4efc95d25c4404789c712cf294c6046
+[NotebookApp | INFO] Starting buffering for 8cea5d5b-c0d7-400d-bd20-dfe3e740a708:b2abaa4837e34a118fbfd74481fa6c04
+[NotebookApp | INFO] Starting buffering for 57a64fa2-9561-40b1-ac7b-7e104c26857f:c4cc1bc577ec4c7288e4e1b340da1e28
+[NotebookApp | INFO] Starting buffering for af4f4686-385e-46e3-bd47-345a1156222c:40dbb178b3b8489ea444d3449d44e1f8
+[NotebookApp | INFO] Starting buffering for 5650742f-214a-476f-888e-d026b2c64f73:9136d2a9bb9549488f69e9873d74bfec
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel af4f4686-385e-46e3-bd47-345a1156222c
+[NotebookApp | INFO] Restoring connection for af4f4686-385e-46e3-bd47-345a1156222c:40dbb178b3b8489ea444d3449d44e1f8
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 8cea5d5b-c0d7-400d-bd20-dfe3e740a708
+[NotebookApp | INFO] Restoring connection for 8cea5d5b-c0d7-400d-bd20-dfe3e740a708:b2abaa4837e34a118fbfd74481fa6c04
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 5650742f-214a-476f-888e-d026b2c64f73
+[NotebookApp | INFO] Restoring connection for 5650742f-214a-476f-888e-d026b2c64f73:9136d2a9bb9549488f69e9873d74bfec
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 1f0db181-b40c-4ad6-ad77-2f087dba265f
+[NotebookApp | INFO] Restoring connection for 1f0db181-b40c-4ad6-ad77-2f087dba265f:7f17966e02cb49028566316dc2a973b0
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel b68be65b-725f-45f3-a199-8297c7894fb9
+[NotebookApp | INFO] Restoring connection for b68be65b-725f-45f3-a199-8297c7894fb9:d4efc95d25c4404789c712cf294c6046
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 57a64fa2-9561-40b1-ac7b-7e104c26857f
+[NotebookApp | INFO] Restoring connection for 57a64fa2-9561-40b1-ac7b-7e104c26857f:c4cc1bc577ec4c7288e4e1b340da1e28
+[NotebookApp | INFO] Starting buffering for 57a64fa2-9561-40b1-ac7b-7e104c26857f:c4cc1bc577ec4c7288e4e1b340da1e28
+[NotebookApp | INFO] Starting buffering for af4f4686-385e-46e3-bd47-345a1156222c:40dbb178b3b8489ea444d3449d44e1f8
+[NotebookApp | INFO] Starting buffering for 8cea5d5b-c0d7-400d-bd20-dfe3e740a708:b2abaa4837e34a118fbfd74481fa6c04
+[NotebookApp | INFO] Starting buffering for 5650742f-214a-476f-888e-d026b2c64f73:9136d2a9bb9549488f69e9873d74bfec
+[NotebookApp | INFO] Starting buffering for b68be65b-725f-45f3-a199-8297c7894fb9:d4efc95d25c4404789c712cf294c6046
+[NotebookApp | INFO] Starting buffering for 1f0db181-b40c-4ad6-ad77-2f087dba265f:7f17966e02cb49028566316dc2a973b0
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 57a64fa2-9561-40b1-ac7b-7e104c26857f
+[NotebookApp | INFO] Restoring connection for 57a64fa2-9561-40b1-ac7b-7e104c26857f:c4cc1bc577ec4c7288e4e1b340da1e28
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel b68be65b-725f-45f3-a199-8297c7894fb9
+[NotebookApp | INFO] Restoring connection for b68be65b-725f-45f3-a199-8297c7894fb9:d4efc95d25c4404789c712cf294c6046
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 1f0db181-b40c-4ad6-ad77-2f087dba265f
+[NotebookApp | INFO] Restoring connection for 1f0db181-b40c-4ad6-ad77-2f087dba265f:7f17966e02cb49028566316dc2a973b0
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 5650742f-214a-476f-888e-d026b2c64f73
+[NotebookApp | INFO] Restoring connection for 5650742f-214a-476f-888e-d026b2c64f73:9136d2a9bb9549488f69e9873d74bfec
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 8cea5d5b-c0d7-400d-bd20-dfe3e740a708
+[NotebookApp | INFO] Restoring connection for 8cea5d5b-c0d7-400d-bd20-dfe3e740a708:b2abaa4837e34a118fbfd74481fa6c04
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel af4f4686-385e-46e3-bd47-345a1156222c
+[NotebookApp | INFO] Restoring connection for af4f4686-385e-46e3-bd47-345a1156222c:40dbb178b3b8489ea444d3449d44e1f8
+[NotebookApp | INFO] Starting buffering for 5650742f-214a-476f-888e-d026b2c64f73:9136d2a9bb9549488f69e9873d74bfec
+[NotebookApp | INFO] Starting buffering for 1f0db181-b40c-4ad6-ad77-2f087dba265f:7f17966e02cb49028566316dc2a973b0
+[NotebookApp | INFO] Starting buffering for b68be65b-725f-45f3-a199-8297c7894fb9:d4efc95d25c4404789c712cf294c6046
+[NotebookApp | INFO] Starting buffering for 8cea5d5b-c0d7-400d-bd20-dfe3e740a708:b2abaa4837e34a118fbfd74481fa6c04
+[NotebookApp | INFO] Starting buffering for af4f4686-385e-46e3-bd47-345a1156222c:40dbb178b3b8489ea444d3449d44e1f8
+[NotebookApp | INFO] Starting buffering for 57a64fa2-9561-40b1-ac7b-7e104c26857f:c4cc1bc577ec4c7288e4e1b340da1e28
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel af4f4686-385e-46e3-bd47-345a1156222c
+[NotebookApp | INFO] Restoring connection for af4f4686-385e-46e3-bd47-345a1156222c:40dbb178b3b8489ea444d3449d44e1f8
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 8cea5d5b-c0d7-400d-bd20-dfe3e740a708
+[NotebookApp | INFO] Restoring connection for 8cea5d5b-c0d7-400d-bd20-dfe3e740a708:b2abaa4837e34a118fbfd74481fa6c04
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 5650742f-214a-476f-888e-d026b2c64f73
+[NotebookApp | INFO] Restoring connection for 5650742f-214a-476f-888e-d026b2c64f73:9136d2a9bb9549488f69e9873d74bfec
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 1f0db181-b40c-4ad6-ad77-2f087dba265f
+[NotebookApp | INFO] Restoring connection for 1f0db181-b40c-4ad6-ad77-2f087dba265f:7f17966e02cb49028566316dc2a973b0
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel b68be65b-725f-45f3-a199-8297c7894fb9
+[NotebookApp | INFO] Restoring connection for b68be65b-725f-45f3-a199-8297c7894fb9:d4efc95d25c4404789c712cf294c6046
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 57a64fa2-9561-40b1-ac7b-7e104c26857f
+[NotebookApp | INFO] Restoring connection for 57a64fa2-9561-40b1-ac7b-7e104c26857f:c4cc1bc577ec4c7288e4e1b340da1e28
+[NotebookApp | WARNING] Notebook Programming Assignments/pa1/collinearPoints.ipynb is not trusted
+[NotebookApp | INFO] Kernel started: 290c237e-9c72-4bb0-90a7-0ca6ef1368ef
+[NotebookApp | INFO] 302 GET /notebooks/Programming%20Assignments/pa1/non-collinear-points.jpg (172.17.0.1) 30.02ms
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20200407211653 (172.17.0.1) 391.76ms referer=http://localhost:8889/notebooks/Programming%20Assignments/pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 290c237e-9c72-4bb0-90a7-0ca6ef1368ef
+[NotebookApp | INFO] Starting buffering for 290c237e-9c72-4bb0-90a7-0ca6ef1368ef:91a073d708644b238111d339f78844ac
+[NotebookApp | INFO] Starting buffering for 57a64fa2-9561-40b1-ac7b-7e104c26857f:c4cc1bc577ec4c7288e4e1b340da1e28
+[NotebookApp | WARNING] Notebook Programming Assignments/pa1/collinearPoints.ipynb is not trusted
+[NotebookApp | INFO] 302 GET /notebooks/Programming%20Assignments/pa1/non-collinear-points.jpg (172.17.0.1) 36.06ms
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 290c237e-9c72-4bb0-90a7-0ca6ef1368ef
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20200407211653 (172.17.0.1) 5.55ms referer=http://localhost:8889/notebooks/Programming%20Assignments/pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /Programming Assignments/pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Starting buffering for 1f0db181-b40c-4ad6-ad77-2f087dba265f:7f17966e02cb49028566316dc2a973b0
+[NotebookApp | INFO] Starting buffering for b68be65b-725f-45f3-a199-8297c7894fb9:d4efc95d25c4404789c712cf294c6046
+[NotebookApp | INFO] Starting buffering for 290c237e-9c72-4bb0-90a7-0ca6ef1368ef:7537be9c301844fda4a2c6d6383d07d6
+[NotebookApp | INFO] Starting buffering for 8cea5d5b-c0d7-400d-bd20-dfe3e740a708:b2abaa4837e34a118fbfd74481fa6c04
+[NotebookApp | INFO] Starting buffering for 5650742f-214a-476f-888e-d026b2c64f73:9136d2a9bb9549488f69e9873d74bfec
+[NotebookApp | INFO] Starting buffering for af4f4686-385e-46e3-bd47-345a1156222c:40dbb178b3b8489ea444d3449d44e1f8
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 290c237e-9c72-4bb0-90a7-0ca6ef1368ef
+[NotebookApp | INFO] Restoring connection for 290c237e-9c72-4bb0-90a7-0ca6ef1368ef:7537be9c301844fda4a2c6d6383d07d6
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel b68be65b-725f-45f3-a199-8297c7894fb9
+[NotebookApp | INFO] Restoring connection for b68be65b-725f-45f3-a199-8297c7894fb9:d4efc95d25c4404789c712cf294c6046
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 1f0db181-b40c-4ad6-ad77-2f087dba265f
+[NotebookApp | INFO] Restoring connection for 1f0db181-b40c-4ad6-ad77-2f087dba265f:7f17966e02cb49028566316dc2a973b0
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 5650742f-214a-476f-888e-d026b2c64f73
+[NotebookApp | INFO] Restoring connection for 5650742f-214a-476f-888e-d026b2c64f73:9136d2a9bb9549488f69e9873d74bfec
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 8cea5d5b-c0d7-400d-bd20-dfe3e740a708
+[NotebookApp | INFO] Restoring connection for 8cea5d5b-c0d7-400d-bd20-dfe3e740a708:b2abaa4837e34a118fbfd74481fa6c04
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel af4f4686-385e-46e3-bd47-345a1156222c
+[NotebookApp | INFO] Restoring connection for af4f4686-385e-46e3-bd47-345a1156222c:40dbb178b3b8489ea444d3449d44e1f8
+[NotebookApp | INFO] Starting buffering for af4f4686-385e-46e3-bd47-345a1156222c:40dbb178b3b8489ea444d3449d44e1f8
+[NotebookApp | INFO] Starting buffering for 8cea5d5b-c0d7-400d-bd20-dfe3e740a708:b2abaa4837e34a118fbfd74481fa6c04
+[NotebookApp | INFO] Starting buffering for 1f0db181-b40c-4ad6-ad77-2f087dba265f:7f17966e02cb49028566316dc2a973b0
+[NotebookApp | INFO] Starting buffering for b68be65b-725f-45f3-a199-8297c7894fb9:d4efc95d25c4404789c712cf294c6046
+[NotebookApp | INFO] Starting buffering for 290c237e-9c72-4bb0-90a7-0ca6ef1368ef:7537be9c301844fda4a2c6d6383d07d6
+[NotebookApp | INFO] Starting buffering for 5650742f-214a-476f-888e-d026b2c64f73:9136d2a9bb9549488f69e9873d74bfec
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel af4f4686-385e-46e3-bd47-345a1156222c
+[NotebookApp | INFO] Restoring connection for af4f4686-385e-46e3-bd47-345a1156222c:40dbb178b3b8489ea444d3449d44e1f8
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 8cea5d5b-c0d7-400d-bd20-dfe3e740a708
+[NotebookApp | INFO] Restoring connection for 8cea5d5b-c0d7-400d-bd20-dfe3e740a708:b2abaa4837e34a118fbfd74481fa6c04
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 5650742f-214a-476f-888e-d026b2c64f73
+[NotebookApp | INFO] Restoring connection for 5650742f-214a-476f-888e-d026b2c64f73:9136d2a9bb9549488f69e9873d74bfec
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 1f0db181-b40c-4ad6-ad77-2f087dba265f
+[NotebookApp | INFO] Restoring connection for 1f0db181-b40c-4ad6-ad77-2f087dba265f:7f17966e02cb49028566316dc2a973b0
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel b68be65b-725f-45f3-a199-8297c7894fb9
+[NotebookApp | INFO] Restoring connection for b68be65b-725f-45f3-a199-8297c7894fb9:d4efc95d25c4404789c712cf294c6046
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 290c237e-9c72-4bb0-90a7-0ca6ef1368ef
+[NotebookApp | INFO] Restoring connection for 290c237e-9c72-4bb0-90a7-0ca6ef1368ef:7537be9c301844fda4a2c6d6383d07d6
+[NotebookApp | INFO] Saving file at /Section1-Spark-Basics/1.BasicSpark/5.Word Count.ipynb
+[NotebookApp | INFO] Starting buffering for b68be65b-725f-45f3-a199-8297c7894fb9:d4efc95d25c4404789c712cf294c6046
+[NotebookApp | INFO] Starting buffering for af4f4686-385e-46e3-bd47-345a1156222c:40dbb178b3b8489ea444d3449d44e1f8
+[NotebookApp | INFO] Starting buffering for 290c237e-9c72-4bb0-90a7-0ca6ef1368ef:7537be9c301844fda4a2c6d6383d07d6
+[NotebookApp | INFO] Starting buffering for 5650742f-214a-476f-888e-d026b2c64f73:9136d2a9bb9549488f69e9873d74bfec
+[NotebookApp | INFO] Starting buffering for 8cea5d5b-c0d7-400d-bd20-dfe3e740a708:b2abaa4837e34a118fbfd74481fa6c04
+[NotebookApp | INFO] Starting buffering for 1f0db181-b40c-4ad6-ad77-2f087dba265f:7f17966e02cb49028566316dc2a973b0
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 290c237e-9c72-4bb0-90a7-0ca6ef1368ef
+[NotebookApp | INFO] Restoring connection for 290c237e-9c72-4bb0-90a7-0ca6ef1368ef:7537be9c301844fda4a2c6d6383d07d6
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel b68be65b-725f-45f3-a199-8297c7894fb9
+[NotebookApp | INFO] Restoring connection for b68be65b-725f-45f3-a199-8297c7894fb9:d4efc95d25c4404789c712cf294c6046
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 1f0db181-b40c-4ad6-ad77-2f087dba265f
+[NotebookApp | INFO] Restoring connection for 1f0db181-b40c-4ad6-ad77-2f087dba265f:7f17966e02cb49028566316dc2a973b0
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 5650742f-214a-476f-888e-d026b2c64f73
+[NotebookApp | INFO] Restoring connection for 5650742f-214a-476f-888e-d026b2c64f73:9136d2a9bb9549488f69e9873d74bfec
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 8cea5d5b-c0d7-400d-bd20-dfe3e740a708
+[NotebookApp | INFO] Restoring connection for 8cea5d5b-c0d7-400d-bd20-dfe3e740a708:b2abaa4837e34a118fbfd74481fa6c04
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel af4f4686-385e-46e3-bd47-345a1156222c
+[NotebookApp | INFO] Restoring connection for af4f4686-385e-46e3-bd47-345a1156222c:40dbb178b3b8489ea444d3449d44e1f8
+[NotebookApp | INFO] Starting buffering for af4f4686-385e-46e3-bd47-345a1156222c:40dbb178b3b8489ea444d3449d44e1f8
+[NotebookApp | INFO] Starting buffering for b68be65b-725f-45f3-a199-8297c7894fb9:d4efc95d25c4404789c712cf294c6046
+[NotebookApp | INFO] Starting buffering for 8cea5d5b-c0d7-400d-bd20-dfe3e740a708:b2abaa4837e34a118fbfd74481fa6c04
+[NotebookApp | INFO] Starting buffering for 1f0db181-b40c-4ad6-ad77-2f087dba265f:7f17966e02cb49028566316dc2a973b0
+[NotebookApp | INFO] Starting buffering for 290c237e-9c72-4bb0-90a7-0ca6ef1368ef:7537be9c301844fda4a2c6d6383d07d6
+[NotebookApp | INFO] Starting buffering for 5650742f-214a-476f-888e-d026b2c64f73:9136d2a9bb9549488f69e9873d74bfec
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 8cea5d5b-c0d7-400d-bd20-dfe3e740a708
+[NotebookApp | INFO] Restoring connection for 8cea5d5b-c0d7-400d-bd20-dfe3e740a708:b2abaa4837e34a118fbfd74481fa6c04
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 5650742f-214a-476f-888e-d026b2c64f73
+[NotebookApp | INFO] Restoring connection for 5650742f-214a-476f-888e-d026b2c64f73:9136d2a9bb9549488f69e9873d74bfec
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 1f0db181-b40c-4ad6-ad77-2f087dba265f
+[NotebookApp | INFO] Restoring connection for 1f0db181-b40c-4ad6-ad77-2f087dba265f:7f17966e02cb49028566316dc2a973b0
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel b68be65b-725f-45f3-a199-8297c7894fb9
+[NotebookApp | INFO] Restoring connection for b68be65b-725f-45f3-a199-8297c7894fb9:d4efc95d25c4404789c712cf294c6046
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 290c237e-9c72-4bb0-90a7-0ca6ef1368ef
+[NotebookApp | INFO] Restoring connection for 290c237e-9c72-4bb0-90a7-0ca6ef1368ef:7537be9c301844fda4a2c6d6383d07d6
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel af4f4686-385e-46e3-bd47-345a1156222c
+[NotebookApp | INFO] Restoring connection for af4f4686-385e-46e3-bd47-345a1156222c:40dbb178b3b8489ea444d3449d44e1f8
+[NotebookApp | INFO] Starting buffering for 290c237e-9c72-4bb0-90a7-0ca6ef1368ef:7537be9c301844fda4a2c6d6383d07d6
+[NotebookApp | INFO] Starting buffering for af4f4686-385e-46e3-bd47-345a1156222c:40dbb178b3b8489ea444d3449d44e1f8
+[NotebookApp | INFO] Starting buffering for 8cea5d5b-c0d7-400d-bd20-dfe3e740a708:b2abaa4837e34a118fbfd74481fa6c04
+[NotebookApp | INFO] Starting buffering for 5650742f-214a-476f-888e-d026b2c64f73:9136d2a9bb9549488f69e9873d74bfec
+[NotebookApp | INFO] Starting buffering for b68be65b-725f-45f3-a199-8297c7894fb9:d4efc95d25c4404789c712cf294c6046
+[NotebookApp | INFO] Starting buffering for 1f0db181-b40c-4ad6-ad77-2f087dba265f:7f17966e02cb49028566316dc2a973b0
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel af4f4686-385e-46e3-bd47-345a1156222c
+[NotebookApp | INFO] Restoring connection for af4f4686-385e-46e3-bd47-345a1156222c:40dbb178b3b8489ea444d3449d44e1f8
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel b68be65b-725f-45f3-a199-8297c7894fb9
+[NotebookApp | INFO] Restoring connection for b68be65b-725f-45f3-a199-8297c7894fb9:d4efc95d25c4404789c712cf294c6046
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 1f0db181-b40c-4ad6-ad77-2f087dba265f
+[NotebookApp | INFO] Restoring connection for 1f0db181-b40c-4ad6-ad77-2f087dba265f:7f17966e02cb49028566316dc2a973b0
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 5650742f-214a-476f-888e-d026b2c64f73
+[NotebookApp | INFO] Restoring connection for 5650742f-214a-476f-888e-d026b2c64f73:9136d2a9bb9549488f69e9873d74bfec
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 8cea5d5b-c0d7-400d-bd20-dfe3e740a708
+[NotebookApp | INFO] Restoring connection for 8cea5d5b-c0d7-400d-bd20-dfe3e740a708:b2abaa4837e34a118fbfd74481fa6c04
+[NotebookApp | INFO] Starting buffering for 1f0db181-b40c-4ad6-ad77-2f087dba265f:7f17966e02cb49028566316dc2a973b0
+[NotebookApp | INFO] Starting buffering for 8cea5d5b-c0d7-400d-bd20-dfe3e740a708:b2abaa4837e34a118fbfd74481fa6c04
+[NotebookApp | INFO] Starting buffering for af4f4686-385e-46e3-bd47-345a1156222c:40dbb178b3b8489ea444d3449d44e1f8
+[NotebookApp | INFO] Starting buffering for b68be65b-725f-45f3-a199-8297c7894fb9:d4efc95d25c4404789c712cf294c6046
+[NotebookApp | INFO] Starting buffering for 5650742f-214a-476f-888e-d026b2c64f73:9136d2a9bb9549488f69e9873d74bfec
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 8cea5d5b-c0d7-400d-bd20-dfe3e740a708
+[NotebookApp | INFO] Restoring connection for 8cea5d5b-c0d7-400d-bd20-dfe3e740a708:b2abaa4837e34a118fbfd74481fa6c04
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 5650742f-214a-476f-888e-d026b2c64f73
+[NotebookApp | INFO] Restoring connection for 5650742f-214a-476f-888e-d026b2c64f73:9136d2a9bb9549488f69e9873d74bfec
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 1f0db181-b40c-4ad6-ad77-2f087dba265f
+[NotebookApp | INFO] Restoring connection for 1f0db181-b40c-4ad6-ad77-2f087dba265f:7f17966e02cb49028566316dc2a973b0
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel af4f4686-385e-46e3-bd47-345a1156222c
+[NotebookApp | INFO] Restoring connection for af4f4686-385e-46e3-bd47-345a1156222c:40dbb178b3b8489ea444d3449d44e1f8
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel b68be65b-725f-45f3-a199-8297c7894fb9
+[NotebookApp | INFO] Restoring connection for b68be65b-725f-45f3-a199-8297c7894fb9:d4efc95d25c4404789c712cf294c6046
+[NotebookApp | INFO] Starting buffering for af4f4686-385e-46e3-bd47-345a1156222c:40dbb178b3b8489ea444d3449d44e1f8
+[NotebookApp | INFO] Starting buffering for 8cea5d5b-c0d7-400d-bd20-dfe3e740a708:b2abaa4837e34a118fbfd74481fa6c04
+[NotebookApp | INFO] Starting buffering for 5650742f-214a-476f-888e-d026b2c64f73:9136d2a9bb9549488f69e9873d74bfec
+[NotebookApp | INFO] Starting buffering for b68be65b-725f-45f3-a199-8297c7894fb9:d4efc95d25c4404789c712cf294c6046
+[NotebookApp | INFO] Starting buffering for 1f0db181-b40c-4ad6-ad77-2f087dba265f:7f17966e02cb49028566316dc2a973b0
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel b68be65b-725f-45f3-a199-8297c7894fb9
+[NotebookApp | INFO] Restoring connection for b68be65b-725f-45f3-a199-8297c7894fb9:d4efc95d25c4404789c712cf294c6046
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel af4f4686-385e-46e3-bd47-345a1156222c
+[NotebookApp | INFO] Restoring connection for af4f4686-385e-46e3-bd47-345a1156222c:40dbb178b3b8489ea444d3449d44e1f8
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 1f0db181-b40c-4ad6-ad77-2f087dba265f
+[NotebookApp | INFO] Restoring connection for 1f0db181-b40c-4ad6-ad77-2f087dba265f:7f17966e02cb49028566316dc2a973b0
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 5650742f-214a-476f-888e-d026b2c64f73
+[NotebookApp | INFO] Restoring connection for 5650742f-214a-476f-888e-d026b2c64f73:9136d2a9bb9549488f69e9873d74bfec
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 8cea5d5b-c0d7-400d-bd20-dfe3e740a708
+[NotebookApp | INFO] Restoring connection for 8cea5d5b-c0d7-400d-bd20-dfe3e740a708:b2abaa4837e34a118fbfd74481fa6c04
+[NotebookApp | INFO] Starting buffering for 5650742f-214a-476f-888e-d026b2c64f73:9136d2a9bb9549488f69e9873d74bfec
+[NotebookApp | INFO] Starting buffering for 1f0db181-b40c-4ad6-ad77-2f087dba265f:7f17966e02cb49028566316dc2a973b0
+[NotebookApp | INFO] Starting buffering for 8cea5d5b-c0d7-400d-bd20-dfe3e740a708:b2abaa4837e34a118fbfd74481fa6c04
+[NotebookApp | INFO] Starting buffering for b68be65b-725f-45f3-a199-8297c7894fb9:d4efc95d25c4404789c712cf294c6046
+[NotebookApp | INFO] Starting buffering for af4f4686-385e-46e3-bd47-345a1156222c:40dbb178b3b8489ea444d3449d44e1f8
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 8cea5d5b-c0d7-400d-bd20-dfe3e740a708
+[NotebookApp | INFO] Restoring connection for 8cea5d5b-c0d7-400d-bd20-dfe3e740a708:b2abaa4837e34a118fbfd74481fa6c04
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 5650742f-214a-476f-888e-d026b2c64f73
+[NotebookApp | INFO] Restoring connection for 5650742f-214a-476f-888e-d026b2c64f73:9136d2a9bb9549488f69e9873d74bfec
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 1f0db181-b40c-4ad6-ad77-2f087dba265f
+[NotebookApp | INFO] Restoring connection for 1f0db181-b40c-4ad6-ad77-2f087dba265f:7f17966e02cb49028566316dc2a973b0
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel af4f4686-385e-46e3-bd47-345a1156222c
+[NotebookApp | INFO] Restoring connection for af4f4686-385e-46e3-bd47-345a1156222c:40dbb178b3b8489ea444d3449d44e1f8
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel b68be65b-725f-45f3-a199-8297c7894fb9
+[NotebookApp | INFO] Restoring connection for b68be65b-725f-45f3-a199-8297c7894fb9:d4efc95d25c4404789c712cf294c6046
+[NotebookApp | INFO] Starting buffering for b68be65b-725f-45f3-a199-8297c7894fb9:d4efc95d25c4404789c712cf294c6046
+[NotebookApp | INFO] Starting buffering for af4f4686-385e-46e3-bd47-345a1156222c:40dbb178b3b8489ea444d3449d44e1f8
+[NotebookApp | INFO] Starting buffering for 8cea5d5b-c0d7-400d-bd20-dfe3e740a708:b2abaa4837e34a118fbfd74481fa6c04
+[NotebookApp | INFO] Starting buffering for 5650742f-214a-476f-888e-d026b2c64f73:9136d2a9bb9549488f69e9873d74bfec
+[NotebookApp | INFO] Starting buffering for 1f0db181-b40c-4ad6-ad77-2f087dba265f:7f17966e02cb49028566316dc2a973b0
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel b68be65b-725f-45f3-a199-8297c7894fb9
+[NotebookApp | INFO] Restoring connection for b68be65b-725f-45f3-a199-8297c7894fb9:d4efc95d25c4404789c712cf294c6046
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel af4f4686-385e-46e3-bd47-345a1156222c
+[NotebookApp | INFO] Restoring connection for af4f4686-385e-46e3-bd47-345a1156222c:40dbb178b3b8489ea444d3449d44e1f8
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 1f0db181-b40c-4ad6-ad77-2f087dba265f
+[NotebookApp | INFO] Restoring connection for 1f0db181-b40c-4ad6-ad77-2f087dba265f:7f17966e02cb49028566316dc2a973b0
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 5650742f-214a-476f-888e-d026b2c64f73
+[NotebookApp | INFO] Restoring connection for 5650742f-214a-476f-888e-d026b2c64f73:9136d2a9bb9549488f69e9873d74bfec
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 8cea5d5b-c0d7-400d-bd20-dfe3e740a708
+[NotebookApp | INFO] Restoring connection for 8cea5d5b-c0d7-400d-bd20-dfe3e740a708:b2abaa4837e34a118fbfd74481fa6c04
+[NotebookApp | INFO] Starting buffering for af4f4686-385e-46e3-bd47-345a1156222c:40dbb178b3b8489ea444d3449d44e1f8
+[NotebookApp | INFO] Starting buffering for 8cea5d5b-c0d7-400d-bd20-dfe3e740a708:b2abaa4837e34a118fbfd74481fa6c04
+[NotebookApp | INFO] Starting buffering for b68be65b-725f-45f3-a199-8297c7894fb9:d4efc95d25c4404789c712cf294c6046
+[NotebookApp | INFO] Starting buffering for 5650742f-214a-476f-888e-d026b2c64f73:9136d2a9bb9549488f69e9873d74bfec
+[NotebookApp | INFO] Starting buffering for 1f0db181-b40c-4ad6-ad77-2f087dba265f:7f17966e02cb49028566316dc2a973b0
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 8cea5d5b-c0d7-400d-bd20-dfe3e740a708
+[NotebookApp | INFO] Restoring connection for 8cea5d5b-c0d7-400d-bd20-dfe3e740a708:b2abaa4837e34a118fbfd74481fa6c04
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 5650742f-214a-476f-888e-d026b2c64f73
+[NotebookApp | INFO] Restoring connection for 5650742f-214a-476f-888e-d026b2c64f73:9136d2a9bb9549488f69e9873d74bfec
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 1f0db181-b40c-4ad6-ad77-2f087dba265f
+[NotebookApp | INFO] Restoring connection for 1f0db181-b40c-4ad6-ad77-2f087dba265f:7f17966e02cb49028566316dc2a973b0
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel af4f4686-385e-46e3-bd47-345a1156222c
+[NotebookApp | INFO] Restoring connection for af4f4686-385e-46e3-bd47-345a1156222c:40dbb178b3b8489ea444d3449d44e1f8
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel b68be65b-725f-45f3-a199-8297c7894fb9
+[NotebookApp | INFO] Restoring connection for b68be65b-725f-45f3-a199-8297c7894fb9:d4efc95d25c4404789c712cf294c6046
+[NotebookApp | INFO] Starting buffering for 8cea5d5b-c0d7-400d-bd20-dfe3e740a708:b2abaa4837e34a118fbfd74481fa6c04
+[NotebookApp | INFO] Starting buffering for b68be65b-725f-45f3-a199-8297c7894fb9:d4efc95d25c4404789c712cf294c6046
+[NotebookApp | INFO] Starting buffering for af4f4686-385e-46e3-bd47-345a1156222c:40dbb178b3b8489ea444d3449d44e1f8
+[NotebookApp | INFO] Starting buffering for 1f0db181-b40c-4ad6-ad77-2f087dba265f:7f17966e02cb49028566316dc2a973b0
+[NotebookApp | INFO] Starting buffering for 5650742f-214a-476f-888e-d026b2c64f73:9136d2a9bb9549488f69e9873d74bfec
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel b68be65b-725f-45f3-a199-8297c7894fb9
+[NotebookApp | INFO] Restoring connection for b68be65b-725f-45f3-a199-8297c7894fb9:d4efc95d25c4404789c712cf294c6046
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel af4f4686-385e-46e3-bd47-345a1156222c
+[NotebookApp | INFO] Restoring connection for af4f4686-385e-46e3-bd47-345a1156222c:40dbb178b3b8489ea444d3449d44e1f8
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 1f0db181-b40c-4ad6-ad77-2f087dba265f
+[NotebookApp | INFO] Restoring connection for 1f0db181-b40c-4ad6-ad77-2f087dba265f:7f17966e02cb49028566316dc2a973b0
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 5650742f-214a-476f-888e-d026b2c64f73
+[NotebookApp | INFO] Restoring connection for 5650742f-214a-476f-888e-d026b2c64f73:9136d2a9bb9549488f69e9873d74bfec
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 8cea5d5b-c0d7-400d-bd20-dfe3e740a708
+[NotebookApp | INFO] Restoring connection for 8cea5d5b-c0d7-400d-bd20-dfe3e740a708:b2abaa4837e34a118fbfd74481fa6c04
+[NotebookApp | INFO] Starting buffering for 1f0db181-b40c-4ad6-ad77-2f087dba265f:7f17966e02cb49028566316dc2a973b0
+[NotebookApp | INFO] Starting buffering for af4f4686-385e-46e3-bd47-345a1156222c:40dbb178b3b8489ea444d3449d44e1f8
+[NotebookApp | INFO] Starting buffering for b68be65b-725f-45f3-a199-8297c7894fb9:d4efc95d25c4404789c712cf294c6046
+[NotebookApp | INFO] Starting buffering for 8cea5d5b-c0d7-400d-bd20-dfe3e740a708:b2abaa4837e34a118fbfd74481fa6c04
+[NotebookApp | INFO] Starting buffering for 5650742f-214a-476f-888e-d026b2c64f73:9136d2a9bb9549488f69e9873d74bfec
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 8cea5d5b-c0d7-400d-bd20-dfe3e740a708
+[NotebookApp | INFO] Restoring connection for 8cea5d5b-c0d7-400d-bd20-dfe3e740a708:b2abaa4837e34a118fbfd74481fa6c04
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 5650742f-214a-476f-888e-d026b2c64f73
+[NotebookApp | INFO] Restoring connection for 5650742f-214a-476f-888e-d026b2c64f73:9136d2a9bb9549488f69e9873d74bfec
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 1f0db181-b40c-4ad6-ad77-2f087dba265f
+[NotebookApp | INFO] Restoring connection for 1f0db181-b40c-4ad6-ad77-2f087dba265f:7f17966e02cb49028566316dc2a973b0
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel af4f4686-385e-46e3-bd47-345a1156222c
+[NotebookApp | INFO] Restoring connection for af4f4686-385e-46e3-bd47-345a1156222c:40dbb178b3b8489ea444d3449d44e1f8
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel b68be65b-725f-45f3-a199-8297c7894fb9
+[NotebookApp | INFO] Restoring connection for b68be65b-725f-45f3-a199-8297c7894fb9:d4efc95d25c4404789c712cf294c6046
+[NotebookApp | INFO] Starting buffering for 1f0db181-b40c-4ad6-ad77-2f087dba265f:7f17966e02cb49028566316dc2a973b0
+[NotebookApp | INFO] Starting buffering for 5650742f-214a-476f-888e-d026b2c64f73:9136d2a9bb9549488f69e9873d74bfec
+[NotebookApp | INFO] Starting buffering for af4f4686-385e-46e3-bd47-345a1156222c:40dbb178b3b8489ea444d3449d44e1f8
+[NotebookApp | INFO] Starting buffering for 8cea5d5b-c0d7-400d-bd20-dfe3e740a708:b2abaa4837e34a118fbfd74481fa6c04
+[NotebookApp | INFO] Starting buffering for b68be65b-725f-45f3-a199-8297c7894fb9:d4efc95d25c4404789c712cf294c6046
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel b68be65b-725f-45f3-a199-8297c7894fb9
+[NotebookApp | INFO] Restoring connection for b68be65b-725f-45f3-a199-8297c7894fb9:d4efc95d25c4404789c712cf294c6046
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel af4f4686-385e-46e3-bd47-345a1156222c
+[NotebookApp | INFO] Restoring connection for af4f4686-385e-46e3-bd47-345a1156222c:40dbb178b3b8489ea444d3449d44e1f8
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 1f0db181-b40c-4ad6-ad77-2f087dba265f
+[NotebookApp | INFO] Restoring connection for 1f0db181-b40c-4ad6-ad77-2f087dba265f:7f17966e02cb49028566316dc2a973b0
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 5650742f-214a-476f-888e-d026b2c64f73
+[NotebookApp | INFO] Restoring connection for 5650742f-214a-476f-888e-d026b2c64f73:9136d2a9bb9549488f69e9873d74bfec
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 8cea5d5b-c0d7-400d-bd20-dfe3e740a708
+[NotebookApp | INFO] Restoring connection for 8cea5d5b-c0d7-400d-bd20-dfe3e740a708:b2abaa4837e34a118fbfd74481fa6c04
+[NotebookApp | INFO] Starting buffering for 8cea5d5b-c0d7-400d-bd20-dfe3e740a708:b2abaa4837e34a118fbfd74481fa6c04
+[NotebookApp | INFO] Starting buffering for b68be65b-725f-45f3-a199-8297c7894fb9:d4efc95d25c4404789c712cf294c6046
+[NotebookApp | INFO] Starting buffering for 1f0db181-b40c-4ad6-ad77-2f087dba265f:7f17966e02cb49028566316dc2a973b0
+[NotebookApp | INFO] Starting buffering for af4f4686-385e-46e3-bd47-345a1156222c:40dbb178b3b8489ea444d3449d44e1f8
+[NotebookApp | INFO] Starting buffering for 5650742f-214a-476f-888e-d026b2c64f73:9136d2a9bb9549488f69e9873d74bfec
+[NotebookApp | WARNING] 404 GET /api/kernels/83d412f7-8373-4492-842e-e638d88a18ae/channels?session_id=b71e29b404dd4b5f879d684cf2caee6a (172.17.0.1): Kernel does not exist: 83d412f7-8373-4492-842e-e638d88a18ae
+[NotebookApp | WARNING] 404 GET /api/kernels/83d412f7-8373-4492-842e-e638d88a18ae/channels?session_id=b71e29b404dd4b5f879d684cf2caee6a (172.17.0.1) 579.94ms referer=None
+[NotebookApp | WARNING] 404 GET /api/kernels/2bdbe0f1-07c5-472e-8d0b-f924a5d43520/channels?session_id=9b1489f4a1594b398764b74667e33105 (172.17.0.1): Kernel does not exist: 2bdbe0f1-07c5-472e-8d0b-f924a5d43520
+[NotebookApp | WARNING] 404 GET /api/kernels/2bdbe0f1-07c5-472e-8d0b-f924a5d43520/channels?session_id=9b1489f4a1594b398764b74667e33105 (172.17.0.1) 35.75ms referer=None
+[NotebookApp | WARNING] 404 GET /api/kernels/c9571928-d616-49f0-a5a6-366fce3b183d/channels?session_id=a327b8fb1d0d44eab4f311e1bf2c348d (172.17.0.1): Kernel does not exist: c9571928-d616-49f0-a5a6-366fce3b183d
+[NotebookApp | WARNING] 404 GET /api/kernels/c9571928-d616-49f0-a5a6-366fce3b183d/channels?session_id=a327b8fb1d0d44eab4f311e1bf2c348d (172.17.0.1) 36.43ms referer=None
+[NotebookApp | WARNING] 404 GET /api/kernels/95428d9e-85a9-42e5-a5b4-31c525b49051/channels?session_id=6a14f18b306549ea8be28589811b93ed (172.17.0.1): Kernel does not exist: 95428d9e-85a9-42e5-a5b4-31c525b49051
+[NotebookApp | WARNING] 404 GET /api/kernels/95428d9e-85a9-42e5-a5b4-31c525b49051/channels?session_id=6a14f18b306549ea8be28589811b93ed (172.17.0.1) 29.73ms referer=None
+[NotebookApp | WARNING] 404 GET /api/kernels/5f70270b-6921-4b0f-b757-86c0aa07e320/channels?session_id=1ad34023ffc948328469f904e23e647c (172.17.0.1): Kernel does not exist: 5f70270b-6921-4b0f-b757-86c0aa07e320
+[NotebookApp | WARNING] 404 GET /api/kernels/5f70270b-6921-4b0f-b757-86c0aa07e320/channels?session_id=1ad34023ffc948328469f904e23e647c (172.17.0.1) 37.43ms referer=None
+[NotebookApp | WARNING] 404 GET /api/kernels/9c1f997d-7180-4ed8-99c6-b4637c01f67c/channels?session_id=1ec79ce59fd440fe86576c3cbcfed1c9 (172.17.0.1): Kernel does not exist: 9c1f997d-7180-4ed8-99c6-b4637c01f67c
+[NotebookApp | WARNING] 404 GET /api/kernels/9c1f997d-7180-4ed8-99c6-b4637c01f67c/channels?session_id=1ec79ce59fd440fe86576c3cbcfed1c9 (172.17.0.1) 22.31ms referer=None
+[NotebookApp | WARNING] 404 GET /api/kernels/45fbde89-e485-4f78-b0dd-1b60e8eaf7b0/channels?session_id=7d57431e8f1e43ef881a76caabda101d (172.17.0.1): Kernel does not exist: 45fbde89-e485-4f78-b0dd-1b60e8eaf7b0
+[NotebookApp | WARNING] 404 GET /api/kernels/45fbde89-e485-4f78-b0dd-1b60e8eaf7b0/channels?session_id=7d57431e8f1e43ef881a76caabda101d (172.17.0.1) 31.08ms referer=None
+[NotebookApp | WARNING] Replacing stale connection: 95428d9e-85a9-42e5-a5b4-31c525b49051:6a14f18b306549ea8be28589811b93ed
+[NotebookApp | WARNING] Replacing stale connection: c9571928-d616-49f0-a5a6-366fce3b183d:a327b8fb1d0d44eab4f311e1bf2c348d
+[NotebookApp | WARNING] Replacing stale connection: 2bdbe0f1-07c5-472e-8d0b-f924a5d43520:9b1489f4a1594b398764b74667e33105
+[NotebookApp | WARNING] Replacing stale connection: 83d412f7-8373-4492-842e-e638d88a18ae:b71e29b404dd4b5f879d684cf2caee6a
+[NotebookApp | WARNING] Replacing stale connection: 9c1f997d-7180-4ed8-99c6-b4637c01f67c:1ec79ce59fd440fe86576c3cbcfed1c9
+[NotebookApp | WARNING] Replacing stale connection: 45fbde89-e485-4f78-b0dd-1b60e8eaf7b0:7d57431e8f1e43ef881a76caabda101d
+[NotebookApp | WARNING] Replacing stale connection: 5f70270b-6921-4b0f-b757-86c0aa07e320:1ad34023ffc948328469f904e23e647c
+[NotebookApp | INFO] 302 GET / (172.17.0.1) 129.55ms
+[NotebookApp | WARNING] Notebook Map-Reduce and Spark (Weeks 1 & 2) /Section1-Spark-Basics/1.BasicSpark/1. Spark Basics 1.ipynb is not trusted
+[NotebookApp | INFO] Kernel started: ec34b5aa-1b3f-418b-b239-ac55d8d06935
+[NotebookApp | INFO] 302 GET /notebooks/Map-Reduce%20and%20Spark%20(Weeks%201%20%26%202)%20/Section1-Spark-Basics/1.BasicSpark/Figures/SparkContextAndRDD.jpg (172.17.0.1) 47.68ms
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20200407211653 (172.17.0.1) 21.97ms referer=http://localhost:8889/notebooks/Map-Reduce%20and%20Spark%20(Weeks%201%20%26%202)%20/Section1-Spark-Basics/1.BasicSpark/1.%20Spark%20Basics%201.ipynb
+[NotebookApp | WARNING] Timeout waiting for kernel_info reply from ec34b5aa-1b3f-418b-b239-ac55d8d06935
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel ec34b5aa-1b3f-418b-b239-ac55d8d06935
+[NotebookApp | INFO] Starting buffering for ec34b5aa-1b3f-418b-b239-ac55d8d06935:823dc5cd8b08426483b6be417b19b9d0

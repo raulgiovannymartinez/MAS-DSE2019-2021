@@ -1,0 +1,26 @@
+Blocking (split 80-20) --> Matching --> Labeling (with about 50, once confident you can do up to 200, then use the 200 for train test; use output of blocking for labeling, when labeling it takes an option (sample size parameter)) --> Predict --> Select best learned measure
+
+- use down sampled to predict
+- labeled data should only be 100 or 200 after blocking
+
+- performance should be good after labeling process
+
+- when to use blackbox tokenizer?
+	first name can be abbreviations, but last name should be the same
+	lower case all last names and then compare
+
+
+Dedupe
+
+- chose any 10,000 rows and run Dedupe library
+- expected output
+	it does active learning phase
+	see what output comes out of active learning
+	not really a fixed number in output
+	active learning part that is training the network
+	not about how well you can label things
+	reasonable solution, they seem to match that should be fine
+	submit CSV file? print it in the notebook
+	you can do "Yes" and "No" in jupyter notebook
+	Random downsample is fine, ideal downsampling will take many resources
+	

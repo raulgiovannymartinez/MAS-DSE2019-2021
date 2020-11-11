@@ -1,0 +1,81 @@
+--------->>> Name: Raul Giovanny Martinez <<<---------
+--------->>> PID: A12461871 <<<---------
+
+--------->>> HW #1 Instructions <<<---------
+
+Due Oct 27 by 11:59pm 
+Points 100 
+Submitting a file upload 
+File Types txt 
+Available Oct 9 at 12am - Oct 29 at 11:59pm 21 days
+
+
+MAS DSE 250 Beyond Relational Data Models
+
+Homework 1
+
+Due Tue, Oct 27 by midnight
+
+ 
+This homework is a programming assignment.
+
+Please turn it in electronically, in form of a single text file containing your queries.
+
+
+In this assignment, we will develop some Cypher queries over the movie graph provided by your installation of the neo4j Desktop (or by neo4j Sandbox). Make sure that your queries run over this graph.
+
+
+--------->>> Queries <<<---------
+
+1. Rank persons by the number of movies they worked in, in descending order. Return person name and movie count.
+
+	This query will return all relations between the person and movie, in other words, all relationships are considered "worked in" for this query:
+
+	MATCH (p:Person)-[r]->(m:Movie) 
+	RETURN p.name AS person_name, count(DISTINCT m) AS movie_count
+	ORDER BY movie_count DESC 
+
+	This query will return the relationships acted, directed, produced, and wrote between the person and movie. Only the relationships stated before are considered as "worked in":
+
+	MATCH (p:Person)-[:ACTED_IN|:DIRECTED|:PRODUCED|:WROTE]->(m:Movie) RETURN p.name AS person_name, count(DISTINCT m) AS movie_count
+	ORDER BY movie_count DESC 
+
+
+2. Find persons who served as director, producer and screenwriter in the same movie (display person name and movie title).
+ 
+	MATCH (p:Person)-[:DIRECTED]->(m:Movie)<-[:PRODUCED]-(p) // match for the roles DIRECTED, PRODUCED, WROTE
+	WHERE exists((p)-[:WROTE]->(m))
+	RETURN  p.name AS person_name, m.title AS movie_title // report the person name and movie title
+
+
+3. Find the name of directors who have never acted.
+	
+	MATCH (p:Person)-[:DIRECTED]->(m:Movie) // get all persons that have directed
+	WHERE not exists((p)-[:ACTED_IN]->(m)) // make sure those person's have never acted
+	RETURN  DISTINCT p.name AS director_name // return unique names found
+
+
+4. For each director, find the number of roles they have directed over their entire career (display director name and role count). Recall that actors may have played multiple roles in the same movie, count them all.
+ 
+	MATCH (p1:Person)-[:DIRECTED]->(m:Movie)<-[a:ACTED_IN]-(p2:Person) // find directors and all actors for each movie
+	RETURN DISTINCT p1.name AS director_name, sum(size(a.roles)) AS role_count // sum the multiple roles found for each actor
+	ORDER BY role_count DESC // display in descending order
+
+
+5. Find the name of actors who have worked with every director born after 1966.
+
+	MATCH (p1)-[]->(m1:Movie)<-[]-(p2) // find two persons that have worked on the same movie
+	WHERE id(p1) < id(p2) AND p1.born>1966 AND p2.born>1966 AND (p1)-[:DIRECTED]-() AND (p2)-[:DIRECTED]-() // make sure they were borned after 1966 and have directed anywhere else
+	WITH collect(distinct m1) AS commonMovies, m1 // get movies in common where directors worked together
+	MATCH (p3)-[:ACTED_IN]->(m1) 
+	WHERE ALL(m1 IN commonMovies WHERE (m1)<-[:ACTED_IN]-(p3)) // find actors that worked in all movies found
+	RETURN DISTINCT p3.name AS actors_name // report actors that have worked with every director born after 1966
+
+
+6. Rename each ACTED_IN relation to APPEARED_IN, preserve the “roles” attribute.
+
+	MATCH (n)-[r1:ACTED_IN]->(m) 
+	MERGE (n)-[r2:APPEARED_IN]->(m) 
+	SET r2.roles = r1.roles // add properties after merge
+	DELETE r1 // remove relationship ACTED_IN
+

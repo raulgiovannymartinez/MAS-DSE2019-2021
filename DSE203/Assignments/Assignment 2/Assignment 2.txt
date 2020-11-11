@@ -1,0 +1,35 @@
+Due Nov 1 by 11:59pm 
+
+Points 30 
+
+Submitting a file upload 
+
+Available Oct 23 at 12am - Nov 1 at 11:59pm 10 days
+
+Data: citeseer.csv and dblp.csv  (in Canvas/Files)
+
+Your task:
+
+Entity Resolution of the two tables using the two different methods shown in class (dedupe and Anhai's py_entitymatching)
+
+Your submission should include the  python scripts (includes SQL scripts) + results
+
+ 
+
+Suggested Reference:
+
+Jupyter Notebook I've uploaded: Entity Matching Complete Workflow.ipynb (Canvas/Files/Hands on/EM)
+
+Anhai's Entity Matching Guide: https://sites.google.com/site/anhaidgroup/projects/magellan/py_entitymatching (Links to an external site.)
+
+dedupe Slides: Canvas/Files/Hands-on Session/dedupe
+
+dedupe Examples (A how-to-use guide through example programs): https://github.com/dedupeio/dedupe-examples
+
+ 
+
+Notes:
+
+(1) You have to install all the dependencies first before you can successfully install Anhai's py_entitymatching package
+
+(2) If you try running the dedupe examples from this repo: https://github.com/dedupeio/dedupe-examples, (Links to an external site.) you might run into various issues. Read the dedupe Slides (in Canvas) to troubleshoot these.

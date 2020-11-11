@@ -1,0 +1,42 @@
+Due Oct 27 by 11:59pm 
+Points 100 Submitting a file upload 
+File Types txt 
+Available Oct 9 at 12am - Oct 29 at 11:59pm 21 days
+
+
+MAS DSE 250 Beyond Relational Data Models
+
+Homework 1
+
+Due Tue, Oct 27 by midnight
+
+ 
+
+This homework is a programming assignment.
+
+Please turn it in electronically, in form of a single text file containing your queries.
+
+ 
+
+In this assignment, we will develop some Cypher queries over the movie graph provided by your installation of the neo4j Desktop (or by neo4j Sandbox). Make sure that your queries run over this graph.
+
+ 
+
+ 
+
+1. Rank persons by the number of movies they worked in, in descending order. Return person name and movie count.
+ 
+
+2. Find persons who served as director, producer and screenwriter in the same movie (display person name and movie title).
+ 
+
+3. Find the name of directors who have never acted.
+ 
+
+4. For each director, find the number of roles they have directed over their entire career (display director name and role count). Recall that actors may have played multiple roles in the same movie, count them all.
+ 
+
+5. Find the name of actors who have worked with every director born after 1966.
+ 
+
+6. Rename each ACTED_IN relation to APPEARED_IN, preserve the “roles” attribute.

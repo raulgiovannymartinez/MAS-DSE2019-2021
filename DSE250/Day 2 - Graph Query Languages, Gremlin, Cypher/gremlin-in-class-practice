@@ -1,0 +1,24 @@
+names of persons who either are older than 18 or have a DL:
+
+g.V()
+  .label('person')
+  .or (
+    has ('age', gt(18)),
+    has ('DL')
+  )
+  .values ('name')
+
+
+names of persons who are both actors and directors, together with
+the title of the movie they acted in, resp, directed:
+
+g.V()
+ .label ('person')
+ .as ('p') .values ('name') .as ('n')
+ .out ('ACTED_IN'). as ('m1') .values ('title') .as ('t1')
+ .select ('p')
+ .out ('DIRECTED'). as ('m2') .values ('title') .as ('t2')
+ .select ('n', 't1', 't2')
+
+
+ 

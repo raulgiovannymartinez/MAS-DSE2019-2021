@@ -1,14 +1,7 @@
-# Python for Data Analysis (4 units)
+# DSE200-Notebooks-2019
+Repository for the students of DSE200, 2019
 
-## Course Description
-Introduction to object oriented programming using Python. Regular expressions. NumPy and Numerical Processing. IPython and plotting; data analysis using PANDAS. Webpage scraping using Scrapy; Twitter API. NLTK.
+This repository will be expanded during the quarter and will hold the notebooks we cover in class, 
+the excercise notebooks, and the solutions to those excercises.
 
-## Instructor
-Yoav Freund
-
-## Teaching Assistant
-Sai Akhil Suggu
-
-## Program Brochure
-http://jacobsschool.ucsd.edu/mas/docs/DSE_Brochure_2019.pdf
-
+Students are expected to fork this repository, and to commit their solutions to their private repository.
